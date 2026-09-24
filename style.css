@@ -19,7 +19,6 @@ header {
 .nav-content {
     width: 100%;
     max-width: 1920px;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +40,6 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 1px solid;
 }
 
 .logo {
@@ -118,7 +116,6 @@ h1 {
 .hero-section {
     width: 100%;
     padding: 80px 20px;
-    border: 1px solid;
     color: white;
     background-color: #043873;
 
@@ -155,12 +152,22 @@ h1 {
     line-height: 1.6;
     color: #fff;
     height: 60px;
-    border: 1px solid;
+}
+
+.btn-free-trial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #4f9cf9;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .hero-image {
     flex: 1;
-    border: 1px solid;
 }
 
 .image-placeholder{
