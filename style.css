@@ -83,33 +83,35 @@ h1 {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .login {
     max-width: 126px;
     height: 60px;
     border-radius: 8px;
-    padding-top: 16px;
-    padding-right: 40px;
-    padding-bottom: 16px;
-    padding-left: 40px;
+    padding: 16px 40px;
     gap: 10px;
     background-color: #FFE492;
-    cursor: pointer;
+    text-decoration: none;
+    color: #043873;
+    align-content: center;
 }
 
 .trial-btn {
     width: 227px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 24px;
+    padding: 16px 24px;
     gap: 10px;
     background-color: #4f9cf9;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 /* hero section */
@@ -118,7 +120,13 @@ h1 {
     padding: 80px 20px;
     color: white;
     background-color: #043873;
-
+    background-image: url(asset/image/hero-background.svg);
+    background-origin: border-box;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: scroll;
 }
 
 .hero-container {
