@@ -18,7 +18,7 @@ header {
 
 .nav-content {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1920px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,6 +189,9 @@ h1 {
     padding: 80px 20px;
     display: flex;
     flex-direction: column;
+    background-image: url(asset/image/work-together-bki.svg);
+    background-position-x: left;
+    background-repeat: no-repeat;
 }
 
 .work-container {
@@ -213,7 +216,9 @@ h1 {
     font-size: 64px;
     line-height: 100%;
     font-family: inter;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    background-image: url(asset/image/custoomise-h1-image.svg);
+    background-repeat: no-repeat;
 }
 
 .work-content p {
@@ -263,7 +268,8 @@ h1 {
     font-size: 64px;
     line-height: 100%;
     font-family: inter;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    background-image: url(asset/image/work-together-h1-image.svg);
 }
 
 .together-content p {
@@ -278,3 +284,7 @@ h1 {
     flex: 1;
 }
 
+.together-image {
+    width: 100%;
+    height: 400px;
+}
