@@ -351,7 +351,7 @@ h1 {
     margin-top: 60px;
 }
 
-.customise-image{
+.customise-image {
     flex: 1;
 }
 
@@ -378,4 +378,67 @@ h1 {
     font-size: 18px;
     line-height: 1.6;
     height: 60px;
+}
+
+.pricing-section {
+    width: 100%;
+    background-color: white;
+    border: 1px solid;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.princing-header {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 191px;
+}
+
+.princing-header h4 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    font-family: inter;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.princing-header p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.price-list-container {
+    width: 100%;
+    border: 1px solid;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.free-cart {
+    flex: 1;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.price-list {
+    
 }
