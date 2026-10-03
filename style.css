@@ -390,7 +390,7 @@ h1 {
     gap: 34px;
 }
 
-.princing-header {
+.pricing-header {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -400,7 +400,7 @@ h1 {
     height: 191px;
 }
 
-.princing-header h4 {
+.pricing-header h4 {
     font-weight: 700;
     font-size: 72px;
     line-height: 100%;
@@ -412,7 +412,7 @@ h1 {
     background-position: bottom ;
 }
 
-.princing-header p {
+.pricing-header p {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
@@ -603,4 +603,92 @@ h1 {
     align-items: center;
     margin-bottom: 19px;
     gap: 19px;
+}
+
+.your-work-section {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #043873;
+    background-image: url(asset/image/BACKGROUNG.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto;
+}
+
+.your-work-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 60px;
+    color: white;
+}
+
+.your-work-container h4 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: inter;
+    margin-bottom: 40px;
+    background-image: url(asset/image/backroung.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.your-work-container p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.your-data {
+    width: 100%;
+    padding: 80px 20px;
+    align-content: center;
+    border: 1px solid;
+}
+
+.data-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.data-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.data-content h4 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: inter;
+    margin-bottom: 40px;
+}
+
+.data-content p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    height: 60px;
+}
+
+.data-image{
+    flex: 1;
+}
+
+.your-data-image {
+    width: 100%;
+    height: 400px;
 }
