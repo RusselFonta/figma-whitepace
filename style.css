@@ -753,6 +753,13 @@ h1 {
     padding: 80px 20px;
     color: white;
     background-color: #043873;
+    background-image: url(asset/image/hero-background.svg);
+    background-origin: border-box;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: scroll;
 }
 
 .app-container {
