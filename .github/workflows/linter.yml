@@ -49,9 +49,28 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v4
+        uses: github/super-linter/slim@v5
         env:
           VALIDATE_ALL_CODEBASE: false
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Target CSS validation
+          VALIDATE_CSS: true
+
+          # Inline Stylelint configuration rules
+          STYLELINT_LINTER_RULES: |
+            {
+              "rules": {
+                "indentation": 2,
+                "color-hex-case": "lower",
+                "declaration-block-trailing-semicolon": "always",
+                "block-closing-brace-empty-line-before": "never",
+                "font-family-no-missing-generic-family-keyword": true,
+                "declaration-block-no-redundant-longhand-properties": true,
+                "color-function-notation": "modern",
+                "alpha-value-notation": "percentage",
+                "function-url-quotes": "always"
+              }
+            }

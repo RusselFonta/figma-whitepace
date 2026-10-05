@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -86,6 +87,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 .login {
@@ -143,13 +145,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Inter', sans-serif;
 }
 
 .hero-content h4 {
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -160,6 +163,7 @@ h1 {
     line-height: 1.6;
     color: #fff;
     height: 60px;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn-free-trial {
@@ -209,6 +213,7 @@ h1 {
     flex: 1;
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
     align-items: flex-start;
 }
 
@@ -216,7 +221,7 @@ h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
     background-image: url(asset/image/custoomise-h1-image.svg);
     background-repeat: no-repeat;
@@ -228,6 +233,7 @@ h1 {
     font-size: 18px;
     line-height: 1.6;
     height: 60px;
+    font-family: 'Inter', sans-serif;
 }
 
 .work-get-start-btn {
@@ -262,13 +268,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Inter', sans-serif;
 }
 
 .together-content h4 {
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
     margin-bottom: 40px;
     background-image: url(asset/image/work-together-h1-image.svg);
 }
@@ -278,7 +285,8 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
-    height: 60px
+    height: 60px;
+    font-family: 'Inter', sans-serif;
 }
 
 .work-togther-image {
@@ -312,19 +320,21 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Inter', sans-serif;
 }
 
 .extension-content h4 {
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
     background-image: url(asset/image/custoomise-h1-image.svg);
     background-repeat: no-repeat;
 }
 
 .extension-content p {
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
     font-weight: 400;
     font-size: 18px;
@@ -367,7 +377,7 @@ h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
     background-image: url(asset/image/custoomise-h1-image.svg);
     background-repeat: no-repeat;
@@ -405,7 +415,7 @@ h1 {
     font-weight: 700;
     font-size: 72px;
     line-height: 100%;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
     background-image: url(asset/image/price-h1-image.svg);
     background-repeat: no-repeat;
@@ -452,7 +462,7 @@ h1 {
 .free-cart h3 {
     font-weight: 700;
     font-size: 36px;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
 }
 
 .free-cart p {
@@ -517,7 +527,7 @@ h1 {
 .personal-cart h3 {
     font-weight: 700;
     font-size: 36px;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
 }
 
 .personal-cart p {
@@ -571,7 +581,7 @@ h1 {
 }
 
 .organize-cart h4 {
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
@@ -580,7 +590,7 @@ h1 {
 .organize-cart h3 {
     font-weight: 700;
     font-size: 36px;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
 }
 
 .organize-cart p {
@@ -784,7 +794,7 @@ h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -794,6 +804,7 @@ h1 {
     font-size: 18px;
     line-height: 1.6;
     color: #fff;
+    font-family: 'Inter', sans-serif;
     height: 60px;
 }
 
@@ -805,3 +816,4 @@ h1 {
     width: 100%;
     height: 400px;
 }
+
