@@ -298,6 +298,7 @@ h1 {
 }
 
 .extension-container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -409,7 +410,7 @@ h1 {
     background-image: url(asset/image/price-h1-image.svg);
     background-repeat: no-repeat;
     background-size: 400px;
-    background-position: bottom ;
+    background-position: bottom;
 }
 
 .pricing-header p {
@@ -460,8 +461,8 @@ h1 {
 }
 
 .free-cart:hover {
-     box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
-     transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
+    transform: scale(1.05);
 }
 
 .price-list {
@@ -526,7 +527,7 @@ h1 {
 
 .personal-cart:hover {
     box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
-     transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .personal-list {
@@ -589,7 +590,7 @@ h1 {
 
 .organize-cart:hover {
     box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
-     transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .org-list {
@@ -649,7 +650,6 @@ h1 {
     width: 100%;
     padding: 80px 20px;
     align-content: center;
-    border: 1px solid;
 }
 
 .data-container {
@@ -684,11 +684,68 @@ h1 {
     height: 60px;
 }
 
-.data-image{
+.data-image {
     flex: 1;
 }
 
 .your-data-image {
     width: 100%;
     height: 400px;
+}
+
+.our-sponsors {
+    width: 100%;
+    padding: 80px 20px;
+}
+
+.sponsor-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    border: 1px solid;
+}
+
+.sponsor-header {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+    background-image: url(asset/image/price-h1-image.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.sponsor-logo {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 42px;
+    border: 1px solid;
+}
+
+.sponsor {
+    display: flex;  
+    flex: 1; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    border: 1px solid;
+}
+
+.sponsor img {
+    width: auto;            
+    height: auto;           
+    max-width: 100%;       
+    max-height: 100%;   
 }
