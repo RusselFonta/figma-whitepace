@@ -50,7 +50,7 @@ header {
 }
 
 h1 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 28px;
   line-height: 100%;
@@ -75,7 +75,7 @@ h1 {
 }
 
 .nav-link a {
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
@@ -107,7 +107,7 @@ h1 {
   padding: 16px 24px;
   gap: 10px;
   background-color: #4f9cf9;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ h1 {
 .hero-section {
   width: 100%;
   padding: 80px 20px;
-  color: #ffffff;
+  color: #fff;
   background-color: #043873;
   background-image: url("asset/image/hero-background.svg");
   background-origin: border-box;
@@ -156,7 +156,7 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: #ffffff;
+  color: #fff;
   height: 60px;
   font-family: Inter, sans-serif;
 }
@@ -166,7 +166,7 @@ h1 {
   align-items: center;
   gap: 10px;
   background-color: #4f9cf9;
-  color: #ffffff;
+  color: #fff;
   padding: 16px 32px;
   border-radius: 8px;
   text-decoration: none;
@@ -236,7 +236,7 @@ h1 {
   align-items: center;
   gap: 10px;
   background-color: #4f9cf9;
-  color: #ffffff;
+  color: #fff;
   padding: 16px 50px;
   border-radius: 8px;
   text-decoration: none;
@@ -295,7 +295,7 @@ h1 {
 .extension-section {
   width: 100%;
   padding: 80px 20px;
-  color: #ffffff;
+  color: #fff;
   background-color: #043873;
 }
 
@@ -386,7 +386,7 @@ h1 {
 
 .pricing-section {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 80px 20px;
   display: flex;
   flex-direction: column;
@@ -441,7 +441,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  box-shadow: 0 0 30px rgba(141, 141, 141, 0.15);
+  box-shadow: 0 0 30px rgba(141 141 141 15%);
   transform: scale(1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -464,7 +464,7 @@ h1 {
 }
 
 .free-cart:hover {
-  box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
+  box-shadow: 0 0 30px rgba(80 77 77 20%);
   transform: scale(1.05);
 }
 
@@ -484,7 +484,7 @@ h1 {
 .price-btn {
   align-items: center;
   gap: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #212529;
   border: 1px solid #ffe492;
   padding: 16px 32px;
@@ -497,7 +497,7 @@ h1 {
   flex: 1;
   width: 100%;
   max-width: 400px;
-  color: #ffffff;
+  color: #fff;
   border: none;
   background-color: #043873;
   border-radius: 10px;
@@ -506,7 +506,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  box-shadow: 0 0 30px rgba(141, 141, 141, 0.15);
+  box-shadow: 0 0 30px rgba(141 141 141 15%);
   transform: scale(1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -529,7 +529,7 @@ h1 {
 }
 
 .personal-cart:hover {
-  box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
+  box-shadow: 0 0 30px rgba(80 77 77 20%);
   transform: scale(1.06);
 }
 
@@ -550,7 +550,7 @@ h1 {
   align-items: center;
   gap: 10px;
   background-color: #4f9cf9;
-  color: #ffffff;
+  color: #fff;
   padding: 16px 32px;
   border-radius: 8px;
   text-decoration: none;
@@ -568,7 +568,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  box-shadow: 0 0 30px rgba(141, 141, 141, 0.15);
+  box-shadow: 0 0 30px rgba(141 141 141 15%);
   transform: scale(1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -592,7 +592,7 @@ h1 {
 }
 
 .organize-cart:hover {
-  box-shadow: 0 0 30px rgba(80, 77, 77, 0.2);
+  box-shadow: 0 0 30px rgba(80 77 77 20%);
   transform: scale(1.06);
 }
 
@@ -628,7 +628,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .your-work-container h4 {
@@ -751,7 +751,7 @@ h1 {
 .app-section {
   width: 100%;
   padding: 80px 20px;
-  color: #ffffff;
+  color: #fff;
   background-color: #043873;
   background-image: url("asset/image/hero-background.svg");
   background-origin: border-box;
@@ -792,7 +792,7 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: #ffffff;
+  color: #fff;
   font-family: Inter, sans-serif;
   height: 60px;
 }
