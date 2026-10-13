@@ -823,20 +823,20 @@ h1 {
   font-size: 64px;
   line-height: 100%;
   font-family: Inter, sans-serif;
-  margin-bottom: 40px;
   background-image: url("asset/image/price-h1-image.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 .ternimonial-card{
+  gap: 32px; 
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);   
   width: 100%;
   max-width: 1200px;
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
+  display: flex; 
+  justify-content: space-between;
 }
 
 .cart-one{
@@ -846,14 +846,14 @@ h1 {
   padding: 40px 32px;
   width: 100%;
   max-width: 400px;
-  border: 1px solid rgb(215, 213, 213);
+  border: 1px solid rgb(215 213 213);
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: #212529;
   transform: scale(1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .cart-one:hover{
@@ -870,7 +870,8 @@ h1 {
   width: 100%;
   max-width: 400px;
   transform: scale(1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: #212529;
+  transition: transform 0.3s ease;
   flex: 1;
 }
 
@@ -888,23 +889,14 @@ h1 {
   width: 100%;
   max-width: 470px;
   transform: scale(1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: #212529;
+  transition: transform 0.3s ease;
   flex: 1;
 }
 
 .cart-three:hover{
   box-shadow: 0 0 30px rgba(80 77 77 20%);
   transform: scale(1.04);
-}
-
-.ternimonial-card{
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);   
-  width: 100%;
-  max-width: 1200px;
-  display: flex; 
-  justify-content: space-between;
 }
 
 .cart-content img{
@@ -961,7 +953,6 @@ h1 {
 .next-card-role h2{
   font-size: 22px;
   font-weight: 700;
-  color: #212529;
   margin-bottom: 20px;
   color: #043873;
 }
