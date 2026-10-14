@@ -1133,6 +1133,10 @@ h1 {
   color: #fff;
 }
 
+.btm-left a:hover {
+  opacity: 1;
+}
+
 .btm-right {
   display: flex;
   align-items: center;
