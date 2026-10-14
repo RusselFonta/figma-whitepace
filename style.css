@@ -1014,7 +1014,6 @@ h1 {
 
 .info-container {
   max-width: 1200px;
-  border: 1px solid;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -1097,4 +1096,46 @@ h1 {
   font-size: 15px;
   line-height: 1.4;
   margin-bottom: 20px;
+}
+
+.btm-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  border-top: 1px solid #212529;
+}
+
+.btm-box span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btm-left {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  gap: 40px;
+}
+
+.btm-left div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.btm-left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btm-right {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  gap: 24px;
 }
