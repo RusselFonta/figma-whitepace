@@ -1004,3 +1004,97 @@ h1 {
   justify-content: space-between;
   align-content: center;
 }
+
+.info-section {
+  background-color: #043873;
+  color: #fff;
+  padding: 80px 20px;
+  font-family: sans-serif;
+}
+
+.info-container {
+  max-width: 1200px;
+  border: 1px solid;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.whitepace-desc {
+  max-width: 250px;
+}
+
+.whitepace-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.whitepace-logo h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.whitepace-desc p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+}
+
+.product-column, 
+.resource-column, 
+.company-column, 
+.try-box {
+  flex: 1;
+}
+
+.info-container h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.product-info, 
+.resource-info, 
+.company-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-info li, 
+.resource-info li, 
+.company-info li {
+  margin-bottom: 12px;
+}
+
+.product-info a, 
+.resource-info a, 
+.company-info a {
+  color: #ffe492;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.product-info a:hover, 
+.resource-info a:hover, 
+.company-info a:hover {
+  color: white;
+}
+
+.try-box {
+  max-width: 250px;
+}
+
+.try-box p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
