@@ -1143,3 +1143,12 @@ div.btm-left a:hover {
   margin-top: 24px;
   gap: 24px;
 }
+
+/* moile responsiveness */
+@media screen and (max-width: 1440px) {
+
+  .nav-content {
+    padding: 16px 24px;
+  }
+
+}
