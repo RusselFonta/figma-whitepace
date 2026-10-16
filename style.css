@@ -141,6 +141,8 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   font-family: Inter, sans-serif;
+  width: 660px;
+  height: 360px;
 }
 
 .hero-content h4 {
@@ -175,12 +177,13 @@ h1 {
 
 .hero-image {
   flex: 1;
+  width: 820px;
+  height: 540px;
 }
 
 .image-placeholder {
   width: 100%;
   height: 100%;
-  border: none;
 }
 
 .work-manage {
@@ -210,6 +213,8 @@ h1 {
   flex-direction: column;
   font-family: Inter, sans-serif;
   align-items: flex-start;
+  width: 672px;
+  height: 411px;
 }
 
 .work-content h4 {
@@ -245,6 +250,8 @@ h1 {
 
 .work-image {
   flex: 1;
+  width: 748px;
+  height: 547px;
 }
 
 .together-container {
@@ -263,6 +270,8 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   font-family: Inter, sans-serif;
+  width: 670px;
+  height: 294px;
 }
 
 .together-content h4 {
@@ -285,11 +294,13 @@ h1 {
 
 .work-togther-image {
   flex: 1;
+  width: 710px;
+  height: 661px;
 }
 
 .together-image {
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
 
 .extension-section {
@@ -315,6 +326,8 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   font-family: Inter, sans-serif;
+  width: 697px;
+  height: 294px;
 }
 
 .extension-content h4 {
@@ -338,6 +351,8 @@ h1 {
 
 .extension-image {
   flex: 1;
+  width: 686px;
+  height: 479px;
 }
 
 .customise-section {
@@ -357,6 +372,8 @@ h1 {
 
 .customise-image {
   flex: 1;
+  width: 714px;
+  height: 532px;
 }
 
 .customise-content {
@@ -364,6 +381,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 669px;
+  height: 411px;
 }
 
 .customise-content h4 {
@@ -668,6 +687,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 24px;
+  width: 800px;
+  height: 324px;
 }
 
 .data-content h4 {
@@ -688,11 +710,13 @@ h1 {
 
 .data-image {
   flex: 1;
+  width: 681px;
+  height: 381px;
 }
 
 .your-data-image {
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
 
 .our-sponsors {
@@ -777,6 +801,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 798px;
+  height: 468px;
 }
 
 .app-content h4 {
@@ -799,11 +825,13 @@ h1 {
 
 .app-image {
   flex: 1;
+  width: 582px;
+  height: 470px;
 }
 
 .app-image img {
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
 
 .ternimonial-section{ 
@@ -1144,11 +1172,71 @@ div.btm-left a:hover {
   gap: 24px;
 }
 
-/* moile responsiveness */
+/* mobile responsiveness */
 @media screen and (max-width: 1440px) {
 
   .nav-content {
     padding: 16px 24px;
+  }
+
+  .hero-image {
+    width: 680px;
+    height: 450px;
+  }
+
+  .hero-content {
+    width: 691px;
+    height: 361px;
+  }
+
+  .work-content {
+    width: 657px;
+    height: 411px;
+  }
+
+  .work-image {
+    width: 719px;
+    height: 448px;
+  }
+
+  .together-image {
+    width: 583px;
+    height: 542px;
+  }
+
+  .together-content {
+    width: 633px;
+    height: 324px;
+  }
+
+  .extension-content {
+    width: 527px;
+    height: 394px;
+  }
+
+  .extension-image {
+    width: 686px;
+    height: 479px;
+  }
+
+  .customise-image {
+    width: 670px;
+    height: 499px;
+  }
+
+  .customise-content {
+    width: 646px;
+    height: 407px;
+  }
+
+  .data-content {
+    width: 695px;
+    height: 324px;
+  }
+
+  .data-image {
+    width: 681px;
+    height: 381px;
   }
 
 }
