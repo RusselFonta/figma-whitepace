@@ -1173,8 +1173,7 @@ div.btm-left a:hover {
 }
 
 /* mobile responsiveness */
-@media screen and (max-width: 1440px) {
-
+@media screen and (width <= 1440px) {
   .nav-content {
     padding: 16px 24px;
   }
@@ -1238,5 +1237,4 @@ div.btm-left a:hover {
     width: 681px;
     height: 381px;
   }
-
 }
