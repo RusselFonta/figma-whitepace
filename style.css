@@ -85,6 +85,10 @@ h1 {
   font-family: Inter, sans-serif;
 }
 
+.hum-menu {
+  display: none;
+}
+
 .login {
   width: 126px;
   height: 60px;
@@ -1237,4 +1241,15 @@ div.btm-left a:hover {
     width: 681px;
     height: 381px;
   }
+}
+
+@media screen and (width <= 1220px) {
+  .nav-link {
+    display: none;
+  }
+
+  .hum-menu {
+    display: block;
+  }
+
 }
