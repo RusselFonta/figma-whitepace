@@ -1390,6 +1390,7 @@ div.btm-left a:hover {
   .nav-btn a {
     display: none;
   }
+  
   .hero-container {
     flex-direction: column;
     align-items: center;
@@ -1581,7 +1582,6 @@ div.btm-left a:hover {
   }
 
   .btm-box {
-    border: 1px solid;
     flex-direction: column;
     align-items: center;
     border: none;
