@@ -701,7 +701,7 @@ h1 {
   font-size: 64px;
   line-height: 100%;
   font-family: Inter, sans-serif;
-  background-image: url(asset/image/price-h1-image.svg);
+  background-image: url("asset/image/price-h1-image.svg");
   margin-bottom: 40px;
   background-repeat: no-repeat;
   background-size: 50%;
